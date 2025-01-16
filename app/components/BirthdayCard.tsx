@@ -1,7 +1,6 @@
 "use client";
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaHeart } from 'react-icons/fa';
 
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
@@ -83,38 +82,21 @@ export const BirthdayCard = () => {
           </h1>
           
           <p className="text-gray-700 mb-6 leading-relaxed">
-          Happy birthday, Talha My Prince My Love! 
-          Today's the day we celebrate the most amazing person 
-          I hope your day is filled with love, laughter, 
-          and all your favorite things.As I sit down to write this letter to you,
-           I'm overwhelmed with emotions. I don't even know where to begin.
-            From the moment we met in class, I knew there was something special 
-            about you. You are always in serious mood,first time i saw your bright smile, 
-            i love it. Always keep smile on your face .Over the past three years,
-            our friendship has grown into something so much more. We've shared countless memories, 
-            from late-night study sessions and deep conversations. 
-            You're the one person who truly love me, and I love how
-             we can always count on each other. Whether it's for help with 
-            Assignment and Uni Project hahah or chat about life, 
-            you're always there for me Thank you . Your support and mean the world to me. 
-             You have this amazing ability to make me laugh haha Love You , 
-           even on my worst days. Talha. It's the little things too..As we celebrate 
-           another year of life, 
-            I want to say thank you. Thank you for being my partner 
-             and my best friend. Thank you for making every day brighter 
-            just be with me. Thank you for being you, Talha.I love you for
-            who you are, As we look to the future, I know that there will be ups and downs.
-             There will be challenges and obstacles. But I'm ready to face them
-          all with you, Talha. I'm ready to take on the world with you by my side.
+  Happy birthday, Talha, my Prince, my Love! Today is the day we celebrate the most amazing person. I hope your day is filled with love, laughter, and all your favorite things.
 
-          So here's to many more adventures, 
-          laughter, and memories to be created together! 
-          Here's to many more late-night conversations,arguments and deep talks.
-          Here's to many more years of love, happiness, and growth together.
+  As I sit down to write this letter to you, I&apos;m overwhelmed with emotions. I don&apos;t even know where to begin. From the moment we met in class, I knew there was something special about you. You&apos;re always in a serious mood, but the first time I saw your bright smile, I loved it. Always keep that smile on your face.
 
-          Happy birthday, my love! I love you more than words can express.
+  Over the past three years, our friendship has grown into something much more. We&apos;ve shared countless memories, from late-night study sessions to deep conversations. You&apos;re the one person who truly loves me, and I love how we can always count on each other. Whether it&apos;s for help with assignments and university projects (hahah), or just chatting about life, you&apos;re always there for me. Thank you. Your support means the world to me. You have this amazing ability to make me laugh, even on my worst days.
 
-          </p>
+  It&apos;s the little things, too. As we celebrate another year of life, I want to say thank you. Thank you for being my partner and my best friend. Thank you for making every day brighter just by being with me. Thank you for being you, Talha. I love you for who you are.
+
+  As we look to the future, I know there will be ups and downs, challenges, and obstacles. But I&apos;m ready to face them all with you by my side. I&apos;m ready to take on the world with you.
+
+  So here&apos;s to many more adventures, laughter, and memories to be created together! Here&apos;s to many more late-night conversations, arguments, and deep talks. Here&apos;s to many more years of love, happiness, and growth together.
+
+  Happy birthday, my love! I love you more than words can express.
+</p>
+
 
           <div className="text-sm text-pink-500 font-semibold animate-pulse">
             With Love ❤️
