@@ -1,5 +1,7 @@
 "use client";
+import Link from 'next/link';
 import Image from 'next/image';
+import { FaHeart } from 'react-icons/fa';
 
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
@@ -9,19 +11,18 @@ const Navbar = () => {
   return (
     <nav className="bg-pink-500 p-4 shadow-lg fixed top-0 w-full z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <a 
-          href="/" 
-          className="text-white text-xl font-bold flex items-center gap-2 hover:text-pink-200 transition-colors"
-        >
-          <Heart size={24} className="text-white" />
-          Birthday Boy
-        </a>
-        <a 
-          href="./app/components/memories.tsx" 
-          className="text-white hover:bg-pink-600 px-4 py-2 rounded-lg transition-colors"
-        >
-          Memories
-        </a>
+      <Link href="/" className="text-white text-xl font-bold flex items-center gap-2 hover:text-pink-200 transition-colors">
+  <a>
+    <Heart size={24} className="text-white" />
+    Birthday Boy
+  </a>
+</Link>
+
+<Link href="/app/components/memories.tsx" className="text-white hover:bg-pink-600 px-4 py-2 rounded-lg transition-colors">
+  <a>
+    Memories
+  </a>
+</Link>
       </div>
     </nav>
   );
