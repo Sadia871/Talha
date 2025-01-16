@@ -32,10 +32,12 @@ export const BirthdayCard = () => {
     <div className="min-h-screen bg-gradient-to-br from-pink-100 to-purple-200 flex items-center justify-center p-4">
       <div className="max-w-lg w-full bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
         <div className="relative h-12 bg-pink-500">
-          <Heart className="absolute top-2 left-4 text-white animate-bounce" size={24} />
-          <a href='Card'> </a>
-          <Heart className="absolute top-2 right-4 text-white animate-bounce delay-100" size={24} />
-        </div>
+        <Link href="/" className="text-white text-xl font-bold flex items-center gap-2 hover:text-pink-200 transition-colors">
+          <a>
+            <Heart size={24} className="text-white" />
+            Birthday Boy
+          </a>
+        </Link></div>
         
         <div className="p-4">
           <div className="relative w-100 h-74 bg-gray-200 rounded-lg overflow-hidden mb-4">
