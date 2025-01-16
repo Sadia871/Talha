@@ -34,11 +34,11 @@ const MemoriesPage = () => {
           {memories.map((memory, index) => (
             <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-48 overflow-hidden">
-                <img
+                {/* <img
                   src={memory.image}
                   alt={memory.title}
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
-                />
+                /> */}
               </div>
               
               <div className="p-6">
