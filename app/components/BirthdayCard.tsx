@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
@@ -61,11 +62,14 @@ export const BirthdayCard = () => {
         
         <div className="p-4">
           <div className="relative w-100 h-74 bg-gray-200 rounded-lg overflow-hidden mb-4">
-            <img 
-              src="/img.png"
-              alt="Birthday Memory"
-              className="w-full h-full object-cover "
-            />
+          <Image 
+  src="/img.png"
+  alt="Birthday Memory"
+  width={500} // Replace with your desired width
+  height={300} // Replace with your desired height
+  className="object-cover"
+/>
+
             <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
               {/* <p className="text-white text-lg">My Love</p> */}
             </div>
